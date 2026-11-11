@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gezinme -->
+    <string name="nav_scan">Tara</string>
+    <string name="nav_connections">Bağlantılar</string>
+    <string name="nav_settings">Ayarlar</string>
+    <string name="action_back">Geri</string>
+
+    <!-- Tarama -->
+    <string name="scan_tagline">Çevrendeki Bluetooth LE cihazlarını keşfet</string>
+    <string name="demo_badge">DEMO</string>
+    <string name="scan_start">Taramayı başlat</string>
+    <string name="scan_stop">Taramayı durdur</string>
+    <string name="scan_status_idle">Taramaya hazır</string>
+    <string name="scan_status_scanning">Cihazlar aranıyor…</string>
+    <string name="scan_count">%2$d cihazdan %1$d tanesi</string>
+    <string name="filter_named_only">Sadece isimli</string>
+    <string name="filter_toggle">Filtreler</string>
+    <string name="filter_min_signal">En düşük sinyal: %1$d dBm</string>
+    <string name="sort_label">Sıralama</string>
+    <string name="sort_signal">Sinyal</string>
+    <string name="sort_name">İsim</string>
+    <string name="sort_recent">Son görülen</string>
+    <string name="device_unnamed">İsimsiz cihaz</string>
+    <string name="rssi_value">%1$d dBm</string>
+    <string name="device_connect">Bağlan</string>
+    <string name="device_connectable">Bağlanılabilir</string>
+    <string name="device_not_connectable">Bağlanılamaz</string>
+    <string name="device_uart_badge">UART</string>
+    <string name="device_services_count">%1$d servis duyuruluyor</string>
+    <string name="scan_empty_title">Henüz bir şey yok</string>
+    <string name="scan_empty_body">Yakındaki cihazları bulmak için Taramayı başlat\'a dokun.</string>
+    <string name="scan_empty_filtered">Filtrelere uyan cihaz yok.</string>
+    <string name="scan_searching">Yayınlar dinleniyor…</string>
+    <string name="error_bluetooth_off">Bluetooth kapalı.</string>
+    <string name="error_unsupported">Bu cihaz Bluetooth LE desteklemiyor. Demo modunu deneyebilirsin.</string>
+    <string name="error_permission">Bluetooth izni eksik.</string>
+    <string name="error_scan_failed">Tarama başlatılamadı (kod %1$d).</string>
+    <string name="action_turn_on">Aç</string>
+    <string name="action_try_demo">Demo modunu dene</string>
+
+    <!-- İzinler -->
+    <string name="permission_title">Bluetooth erişimi gerekli</string>
+    <string name="permission_body_s">Blipwave, Bluetooth LE cihazlarını bulmak ve bağlanmak için Yakındaki cihazlar iznine ihtiyaç duyar. Bu izin konumunu belirlemek için kullanılmaz.</string>
+    <string name="permission_body_legacy">Bu Android sürümünde Bluetooth LE taraması için Konum izni gerekir. Blipwave konumunu okumaz ve saklamaz.</string>
+    <string name="permission_denied_body">İzin reddedildiği için tarama yapılamıyor. İzni sistem ayarlarından verebilir ya da uygulamayı demo modunda keşfedebilirsin.</string>
+    <string name="permission_grant">İzin ver</string>
+    <string name="permission_open_settings">Ayarları aç</string>
+
+    <!-- Bağlantı durumu -->
+    <string name="status_idle">Bağlı değil</string>
+    <string name="status_connecting">Bağlanıyor</string>
+    <string name="status_connected">Bağlandı</string>
+    <string name="status_disconnected">Bağlantı kesildi</string>
+    <string name="status_lost">Koptu</string>
+
+    <!-- Cihaz detayı -->
+    <string name="detail_disconnect">Bağlantıyı kes</string>
+    <string name="detail_reconnect">Yeniden bağlan</string>
+    <string name="detail_open_console">UART konsolu</string>
+    <string name="detail_no_uart">Bu cihazda Nordic UART servisi bulunamadı.</string>
+    <string name="detail_reason">Neden: %1$s</string>
+    <string name="detail_signal_title">Canlı sinyal</string>
+    <string name="detail_signal_caption">Son 60 saniye</string>
+    <string name="detail_signal_waiting">RSSI örnekleri bekleniyor…</string>
+    <string name="detail_services_title">Servisler</string>
+    <string name="detail_discovering">Servisler keşfediliyor…</string>
+    <string name="detail_services_empty">Servis ve characteristic listesi için bağlan.</string>
+    <string name="detail_characteristics">%1$d characteristic</string>
+    <string name="service_unknown">Bilinmeyen servis</string>
+    <string name="characteristic_unknown">Bilinmeyen characteristic</string>
+
+    <!-- UART konsolu -->
+    <string name="chat_title">UART konsolu</string>
+    <string name="chat_hint_text">Mesaj yaz</string>
+    <string name="chat_hint_hex">HEX baytlar, örn. 50 49 4E 47</string>
+    <string name="chat_send">Gönder</string>
+    <string name="chat_clear">Dökümü temizle</string>
+    <string name="chat_format_text">Metin</string>
+    <string name="chat_format_hex">HEX</string>
+    <string name="chat_invalid_hex">Çift sayıda HEX hanesi gir (0-9, A-F).</string>
+    <string name="chat_empty_title">Henüz mesaj yok</string>
+    <string name="chat_empty_body">PING gönder, cihaz PONG cevabı versin. Diğer her şey aynen geri döner.</string>
+    <string name="chat_tx">TX</string>
+    <string name="chat_rx">RX</string>
+    <string name="chat_bytes">%1$d B</string>
+    <string name="chat_send_failed_not_connected">Bağlı değil. Mesaj gönderilmedi.</string>
+    <string name="chat_send_failed">Mesaj gönderilemedi.</string>
+
+    <!-- Bağlantılar -->
+    <string name="connections_subtitle">Bu oturumda açılan cihazlar</string>
+    <string name="connections_empty_title">Henüz bağlantı yok</string>
+    <string name="connections_empty_body">Tara sekmesinden bir cihaza bağlandığında burada görünür.</string>
+    <string name="connections_go_scan">Cihaz tara</string>
+    <string name="connections_forget">Unut</string>
+    <string name="connections_open">Aç</string>
+
+    <!-- Ayarlar -->
+    <string name="settings_appearance">Görünüm</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_system">Sistem</string>
+    <string name="settings_demo_title">Demo modu</string>
+    <string name="settings_demo_body">Yakındaki cihazları, bağlantıları ve UART cevaplarını taklit eder; donanım olmadan tüm ekranları gezebilirsin.</string>
+    <string name="settings_about">Hakkında</string>
+    <string name="settings_version">Sürüm %1$s</string>
+    <string name="settings_about_body">Kotlin ve Jetpack Compose ile geliştirilmiş açık kaynak bir Bluetooth LE tarayıcısı ve Nordic UART konsolu.</string>
+    <string name="settings_license">MIT Lisansı</string>
+</resources>
