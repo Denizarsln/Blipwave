@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.6"
+        android:background="@color/bp_outline" />
+
+    <TextView
+        android:id="@+id/characteristic_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.Blipwave.Label"
+        android:textColor="@color/bp_on_background"
+        tools:text="UART RX" />
+
+    <TextView
+        android:id="@+id/characteristic_uuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.Blipwave.Mono"
+        tools:text="6E400002-B5A3-F393-E0A9-E50E24DCCA9E" />
+
+    <LinearLayout
+        android:id="@+id/property_badges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal" />
+</LinearLayout>

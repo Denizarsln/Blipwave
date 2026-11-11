@@ -7,7 +7,7 @@
     <string name="action_back">Geri</string>
 
     <!-- Tarama -->
-    <string name="scan_tagline">Çevrendeki Bluetooth LE cihazlarını keşfet</string>
+    <string name="scan_tagline">Çevrendeki Bluetooth LE ve klasik cihazları keşfet</string>
     <string name="demo_badge">DEMO</string>
     <string name="scan_start">Taramayı başlat</string>
     <string name="scan_stop">Taramayı durdur</string>
@@ -104,6 +104,23 @@
     <string name="settings_demo_body">Yakındaki cihazları, bağlantıları ve UART cevaplarını taklit eder; donanım olmadan tüm ekranları gezebilirsin.</string>
     <string name="settings_about">Hakkında</string>
     <string name="settings_version">Sürüm %1$s</string>
-    <string name="settings_about_body">Kotlin ve Jetpack Compose ile geliştirilmiş açık kaynak bir Bluetooth LE tarayıcısı ve Nordic UART konsolu.</string>
+    <string name="settings_about_body">Java ve Android View sistemiyle geliştirilmiş, Bluetooth LE ve klasik cihazları tarayan, Nordic UART ve SPP seri konsolu sunan açık kaynak bir uygulama.</string>
     <string name="settings_license">MIT Lisansı</string>
+
+    <!-- Klasik Bluetooth -->
+    <string name="transport_label">Tür</string>
+    <string name="transport_all">Tümü</string>
+    <string name="transport_le">BLE</string>
+    <string name="transport_classic">Klasik</string>
+    <string name="transport_dual">Çift mod</string>
+    <string name="classic_spp_hint">Seri port profili (SPP) üzerinden bağlanır. Cihaz eşleştirme isteyebilir.</string>
+    <string name="category_audio_video">Ses</string>
+    <string name="category_phone">Telefon</string>
+    <string name="category_computer">Bilgisayar</string>
+    <string name="category_wearable">Giyilebilir</string>
+    <string name="category_peripheral">Çevre birimi</string>
+    <string name="category_health">Sağlık</string>
+    <string name="category_imaging">Görüntüleme</string>
+    <string name="category_networking">Ağ</string>
+    <string name="category_toy">Oyuncak</string>
 </resources>

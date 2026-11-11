@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:background="@drawable/bg_bubble_tx"
+        android:elevation="4dp"
+        android:maxWidth="300dp"
+        android:outlineSpotShadowColor="@color/electric_violet"
+        android:paddingStart="14dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/white"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        tools:text="PING" />
+
+    <TextView
+        android:id="@+id/meta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:textAppearance="@style/TextAppearance.Blipwave.Caption"
+        android:textSize="11sp"
+        tools:text="TX · 14:02:11 · 4 B" />
+</LinearLayout>

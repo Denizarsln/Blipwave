@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Marka paleti (temadan bağımsız) -->
     <color name="night">#FF1A0B2E</color>
     <color name="electric_violet">#FF8B5CF6</color>
+    <color name="deep_violet">#FF6D28D9</color>
     <color name="hot_pink">#FFEC4899</color>
     <color name="coral">#FFFF6B6B</color>
     <color name="sunset_orange">#FFFF9F43</color>
     <color name="neon_cyan">#FF22D3EE</color>
+    <color name="deep_cyan">#FF0891B2</color>
+
+    <!-- Açık tema anlamsal renkleri; koyu karşılıkları values-night içinde -->
+    <color name="bp_background">#FFFBF7FF</color>
+    <color name="bp_surface">#FFFFFFFF</color>
+    <color name="bp_surface_high">#FFF1E9FF</color>
+    <color name="bp_surface_highest">#FFE6DAFB</color>
+    <color name="bp_outline">#FFD9CCF2</color>
+    <color name="bp_on_background">#FF1E1033</color>
+    <color name="bp_on_surface_variant">#FF6B5A86</color>
+    <color name="bp_primary">#FF6D28D9</color>
+    <color name="bp_primary_container">#FFE9DDFF</color>
+    <color name="bp_on_primary_container">#FF2E0F6B</color>
+    <color name="bp_secondary">#FFE5484D</color>
+    <color name="bp_tertiary">#FF0891B2</color>
+    <color name="bp_error">#FFE5484D</color>
+    <color name="bp_bubble_rx">#FFFFFFFF</color>
+    <color name="bp_signal_excellent">#FF0891B2</color>
+    <color name="bp_signal_good">#FF8B5CF6</color>
+    <color name="bp_signal_fair">#FFFF9F43</color>
+    <color name="bp_signal_weak">#FFFF6B6B</color>
+    <color name="bp_hero_start">#FFEDE3FF</color>
+    <color name="bp_hero_center">#FFFFE3F1</color>
+    <color name="bp_hero_end">#FFFFE9DC</color>
+    <color name="bp_card_start">#FFFFFFFF</color>
+    <color name="bp_card_end">#FFFAF5FF</color>
+    <color name="bp_glow">#408B5CF6</color>
+    <color name="bp_grid">#1F1E1033</color>
 </resources>

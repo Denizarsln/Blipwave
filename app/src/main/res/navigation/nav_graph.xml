@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/scanFragment">
+
+    <!-- Detay ve sohbet: sağdan kayarak gelir, geri dönüşte sağa kayarak çıkar -->
+    <action
+        android:id="@+id/action_global_device"
+        app:destination="@id/deviceDetailFragment"
+        app:enterAnim="@anim/slide_in_end"
+        app:exitAnim="@anim/fade_out_short"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/slide_out_end" />
+
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="dev.blipwave.ui.scan.ScanFragment"
+        android:label="@string/nav_scan" />
+
+    <fragment
+        android:id="@+id/connectionsFragment"
+        android:name="dev.blipwave.ui.connections.ConnectionsFragment"
+        android:label="@string/nav_connections" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="dev.blipwave.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings" />
+
+    <fragment
+        android:id="@+id/deviceDetailFragment"
+        android:name="dev.blipwave.ui.device.DeviceDetailFragment">
+        <argument
+            android:name="address"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="classic"
+            android:defaultValue="false"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_device_to_chat"
+            app:destination="@id/chatFragment"
+            app:enterAnim="@anim/slide_in_end"
+            app:exitAnim="@anim/fade_out_short"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out_end" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="dev.blipwave.ui.chat.ChatFragment">
+        <argument
+            android:name="address"
+            app:argType="string" />
+    </fragment>
+</navigation>

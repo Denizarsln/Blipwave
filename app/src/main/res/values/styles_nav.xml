@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Seçili sekmenin arkasındaki hap; gradyan desteklenmediği için ana mor kullanılır -->
+    <style name="Widget.Blipwave.NavIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/bp_primary</item>
+        <item name="android:width">64dp</item>
+        <item name="android:height">32dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Blipwave.Pill</item>
+    </style>
+
+    <style name="TextAppearance.Blipwave.NavLabel" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Blipwave.ToggleButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="backgroundTint">@color/toggle_background</item>
+        <item name="android:textColor">@color/toggle_text</item>
+        <item name="iconTint">@color/toggle_text</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.Blipwave.Label</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Widget.Blipwave.TextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/bp_primary</item>
+        <item name="iconTint">@color/bp_primary</item>
+        <item name="android:textAppearance">@style/TextAppearance.Blipwave.Label</item>
+    </style>
+</resources>

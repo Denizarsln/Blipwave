@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bp_background">#FF1A0B2E</color>
+    <color name="bp_surface">#FF24123F</color>
+    <color name="bp_surface_high">#FF301A52</color>
+    <color name="bp_surface_highest">#FF3A2361</color>
+    <color name="bp_outline">#FF4A3470</color>
+    <color name="bp_on_background">#FFF5F0FF</color>
+    <color name="bp_on_surface_variant">#FFB9A8D9</color>
+    <color name="bp_primary">#FF8B5CF6</color>
+    <color name="bp_primary_container">#FF6D28D9</color>
+    <color name="bp_on_primary_container">#FFF5F0FF</color>
+    <color name="bp_secondary">#FFFF6B6B</color>
+    <color name="bp_tertiary">#FF22D3EE</color>
+    <color name="bp_error">#FFFF6B6B</color>
+    <color name="bp_bubble_rx">#FF301A52</color>
+    <color name="bp_signal_excellent">#FF22D3EE</color>
+    <color name="bp_hero_start">#FF3B1A6E</color>
+    <color name="bp_hero_center">#FF5B1F63</color>
+    <color name="bp_hero_end">#FF6E2A4A</color>
+    <color name="bp_card_start">#FF2A1549</color>
+    <color name="bp_card_end">#FF23123D</color>
+    <color name="bp_glow">#738B5CF6</color>
+    <color name="bp_grid">#1FF5F0FF</color>
+</resources>

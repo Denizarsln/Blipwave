@@ -6,7 +6,6 @@ build/
 # Android Studio / IntelliJ
 .idea/
 *.iml
-.kotlin/
 captures/
 .externalNativeBuild/
 .cxx/
