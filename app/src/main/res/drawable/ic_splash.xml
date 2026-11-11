@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Splash maskesi daire olduğu için gradyanlı bir disk çiziyoruz -->
+    <path android:pathData="M54,54m-36,0a36,36 0,1 1,72 0a36,36 0,1 1,-72 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="18"
+                android:startY="18"
+                android:endX="90"
+                android:endY="90">
+                <item android:offset="0.0" android:color="#FF8B5CF6" />
+                <item android:offset="0.6" android:color="#FFEC4899" />
+                <item android:offset="1.0" android:color="#FFFF9F43" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M70.97,37.03A24,24 0,0 1,70.97 70.97M37.03,37.03A24,24 0,0 0,37.03 70.97"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FF22D3EE" />
+    <path
+        android:pathData="M63.9,44.1A14,14 0,0 1,63.9 63.9M44.1,44.1A14,14 0,0 0,44.1 63.9"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFFFF" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,54m-5.5,0a5.5,5.5 0,1 1,11 0a5.5,5.5 0,1 1,-11 0" />
+</vector>

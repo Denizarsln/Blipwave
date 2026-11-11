@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="night">#FF1A0B2E</color>
+    <color name="electric_violet">#FF8B5CF6</color>
+    <color name="hot_pink">#FFEC4899</color>
+    <color name="coral">#FFFF6B6B</color>
+    <color name="sunset_orange">#FFFF9F43</color>
+    <color name="neon_cyan">#FF22D3EE</color>
+</resources>
